@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>CSS Advanced Selectors</title>
+  </head>
+  <body>
+    <!-- Class Selector -->
+    <div class="box">This is styled with a class selector</div>
+
+    <!-- ID Selector -->
+    <div id="unique">This is styled with an ID selector</div>
+
+    <!-- Direct Descendant -->
+    <div class="container">
+      <p>Direct descendant of .container</p>
+      <span>This is not selected.</span>
+      <div>
+        <p>not targeted</p>
+      </div>
+    </div>
+
+    <!-- Adjacent Sibling -->
+    <h1>Heading</h1>
+    <p>This is adjacent to the heading</p>
+
+    <!-- Attribute Selector -->
+    <a href="http://example.com" target="_self">Open in a new tab</a>
+    <a href="http://example.com" target="_blank">Open in a new tab</a>
+
+    <!-- Pseudo-Class Selector -->
+    <p id="hoverable">Hover me!</p>
+
+    <!-- HTML Element Selector -->
+    <footer>I'm a footer</footer>
+  </body>
+</html>
