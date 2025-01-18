@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box; /* Ensures padding and border are included in width. */
+}
+
+.box-model {
+  width: 300px;
+  padding: 20px; /* Either one value for all sides, 2 values for vertical and horizontal or 4 values for, in order, top, right, bottom, left */
+  margin: 30px auto; /* Same syntax as padding */
+  border: 5px solid blue;
+  background-color: lightgray;
+  text-align: center;
+}

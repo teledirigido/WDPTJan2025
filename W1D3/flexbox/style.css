@@ -1,0 +1,23 @@
+/* Container with display:flex */
+.flex-container {
+  display: flex;
+  justify-content: space-between; /* Aligns across the main axis. Horizontal is flex-direction:row and vertical if flex-direction:column */
+  align-items: center; /* Aligns across the sub axis. Vertical is flex-direction:row and horizontal if flex-direction:column */
+  flex-wrap: wrap; /* Allows items to wrap to the next row or column if needed */
+  border: 1px solid black;
+  gap: 10px;
+  background-color: lightblue;
+  padding: 10px;
+}
+
+/* Items inside the flex container */
+.flex-item {
+  width: 150px;
+  height: 50px;
+  background-color: coral;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
