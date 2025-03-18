@@ -1,0 +1,27 @@
+body {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.balance {
+  transition: filter ease 300ms, opacity ease 300ms;
+}
+
+.balance-off {
+  filter: blur(10px);
+  opacity: 0.5;
+}
+
+.balance-on {
+  filter:blur(0);
+  opacity: 1;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+li {
+  padding:1rem;
+  background: #f1f1f1;
+  margin:1rem;
+  border-radius:1000px;
+}
