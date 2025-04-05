@@ -1,0 +1,152 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,
+h5,h6,pre,form,fieldset,input,textarea,
+p,blockquote,th,td,figure,nav,main,video,
+button,article,section {
+  margin:0; 
+  padding:0; 
+  box-sizing: border-box;
+}
+
+a {
+  color:inherit;
+}
+
+h1, h2,h3,h4,p {
+  margin:0;
+  padding-bottom: 1rem;
+}
+
+input, button, textarea {
+  border:1px solid #CCC;
+  padding:0.5rem;
+}
+
+input, button {
+  border-radius: 1000px;
+}
+
+textarea {
+  border-radius: 10px;
+}
+
+input, textarea {
+  max-width:100%;
+}
+
+button {
+  appearance: none;
+  border-radius:10000px;
+  padding:0.5rem 1rem;
+  background: #333;
+  color:#FFF;
+  &:hover {
+    cursor: pointer;
+    background-color:#666;
+  }
+}
+
+main {
+  max-width: 650px;
+  margin: 0 auto;
+  padding-top: 1rem;
+}
+
+.mt-2 { margin-top: 2rem; }
+
+.has-shadow {
+  box-shadow: 0 5px 10px #DDD;
+  border-radius: 10px;
+}
+
+.navbar {
+  display: flex;
+  list-style: none;
+  gap:1rem;
+  padding-left: 0;
+  padding-bottom: 2rem;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap:1rem;
+  margin-top: 2rem;
+}
+.project-item {
+  background-color: #fff;
+  padding:2rem;
+  border:1px solid #DDD;
+  text-decoration: none;
+  color:inherit;
+  transition: ease transform 200ms, ease background 200ms;
+  &:hover {
+    background-color: #f1f1f1;
+    transform: translateY(2px);
+  }
+}
+
+.add-task {
+  background-color:#f1f1f1;
+  padding:1rem;
+  border-radius: 1rem;
+  form {
+    padding:1rem 0;
+    display: flex;
+    gap:1rem;
+  }
+}
+
+.single-project {
+  padding:1rem;
+  border-left: 10px solid #333;
+  margin:1rem 0;
+}
+
+.single-project--header {
+  display: flex;
+  align-items: center;
+  gap:1rem;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+}
+
+.single-project--tasks { 
+ background-color: #f8f8f8;
+ margin: 1rem 0;
+}
+
+.single-project--task {
+  border-bottom:1px solid #AAA;
+  padding:1rem;
+  &:last-child {
+    border-bottom:0 none;
+  }
+}
+
+.update-success {
+  background-color:greenyellow;
+  padding:1rem;
+  margin-bottom: 1rem;
+  border-radius:0.5rem;
+}
+
+.form-project {
+  padding:1rem;
+  border:1px solid #CCC;
+  margin:1rem 0;
+  .field {
+    padding-bottom: 1rem;
+    label {
+      display: block;
+      font-weight:bold;
+      padding-bottom: 1rem;
+    }
+  }
+  input, textarea {
+    width:100%;
+  }
+}
