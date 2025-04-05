@@ -47,7 +47,7 @@ export function SingleProject() {
     <>
      { project && <div className="single-project">
         
-        { queryArgs.get("updated") && <div className="update-success">
+        { queryArgs.get("update") && queryArgs.get("update") === 'success' && <div className="update-success">
           Your project has been updated!
         </div> }
 

@@ -34,7 +34,6 @@ export function EditSingleProject() {
     axios.put(`${API_URL}/projects/${projectId}`, requestBody )
       .then( response => {
         navigate(`/projects/${projectId}?update=success`); 
-        // 
       })
   }
 
