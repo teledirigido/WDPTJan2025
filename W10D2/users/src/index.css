@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom:2px solid #CCC;
+  .header--title {
+    background-color: #f1f1f1;
+    padding:1rem;
+  }
+  .header--panel {
+    padding:1rem;
+  }
+}
