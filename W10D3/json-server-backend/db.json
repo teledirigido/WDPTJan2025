@@ -1,0 +1,33 @@
+{
+  "projects": [
+    {
+      "id": 2,
+      "title": "Module 3 Project",
+      "description": "Create a full-stack application using MERN stack.",
+      "userId": 1
+    },
+    {
+      "title": "New Project",
+      "description": "Lorem ipsum dolor",
+      "id": 3
+    },
+    {
+      "title": "Foo bar project",
+      "description": "This is another foo bar project",
+      "id": 4
+    }
+  ],
+  "tasks": [
+    {
+      "id": 3,
+      "projectId": 2,
+      "description": "Create a form with 5 input fields"
+    },
+    {
+      "projectId": 4,
+      "title": "Small task",
+      "description": "Small tasks are not always easy to do",
+      "id": 4
+    }
+  ]
+}
