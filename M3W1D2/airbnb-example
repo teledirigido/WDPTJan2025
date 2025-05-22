@@ -1,0 +1,38 @@
+Airbnb
+------
+
+
+Homes
+[
+  {
+    _id: 1
+    name: "My beautiful house",
+    address: "Av 123, Barcelona"
+    bookings: [
+      { booking_id: 100 },
+      { booking_id: 110 }
+    ]
+  }
+]
+
+Bookings
+[
+  {
+    _id: 213123,
+    house_id: 1,
+    user_id: <user_id>,
+    date: 123123123314165,
+  },
+  {
+    _id: 213124,
+    house_id: 1,
+    user_id: <user_id>,
+    date: 895467985647,
+  },
+]
+
+// If we want to retrieve the booking dates
+
+if (booking.date > today ){
+  // render something
+}
