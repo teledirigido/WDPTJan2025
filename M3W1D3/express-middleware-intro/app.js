@@ -20,7 +20,6 @@ function checkUser (req, res, next) {
 // Middleware placed only for /user/:user route
 app.use('/users/:user', checkUser, function (req, res) {
   const { user } = req.params;
-  // console.log(req.secretKey)
   const responseJSON = {
     username: user,
     secretKey: req.secretKey
