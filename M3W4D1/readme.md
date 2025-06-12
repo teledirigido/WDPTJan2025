@@ -19,3 +19,15 @@ Implementing the front-end authentication on react:
 3. We created components for Private and Anon page.
 
 4. We added the JWT token into the API calls on axios
+
+
+--- 
+
+Extra:
+
+Create a page /profile
+
+Consider:
+
+Display name and email.
+You should be redirected to the home page when logged out
